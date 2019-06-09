@@ -1,0 +1,36 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    text-align: center;
+    background-color: darkred;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+}
+
+h6 {
+    text-align: center;
+    background-color: lightgray;
+    font-family: 'Slabo 27px', sans-serif;
+    font-size: 1em;
+}
+
+figcaption {
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    /* top: 20px; */
+    padding: 10px;
+    font-style: italic;
+}
+
+.image {
+    display: grid;
+    margin: auto;
+    box-shadow: 0 40px 50px rgb(84, 250, 242, 0.25), 0px 10px 15px rgba(165, 165, 165, 0.93);
+}
+
+#hello {
+    background-color: lightblue;
+}
+
