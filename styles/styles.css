@@ -9,7 +9,7 @@ body {
 
 h1 {
     text-align: center;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     font-family: 'Raleway', sans-serif;
     font-size: 5rem;
     border-radius: var(--round-border);
@@ -18,7 +18,7 @@ h1 {
 
 h6 {
     text-align: center;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     font-family: 'Slabo 27px', sans-serif;
     font-size: 1.5rem;
     border-radius: var(--round-border);
@@ -58,6 +58,6 @@ figcaption {
     margin: 30px 8px;
     padding: 15px;
     border-radius: var(--round-border);
-    background: #e5e6e2;
+    background: #d2d3ce;
   }
 
