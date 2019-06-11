@@ -40,8 +40,14 @@ figcaption {
     /* box-shadow: 0px 50px 50px rgb(192, 192, 192), 0px 5px 5px rgba(192, 192, 192, 0.93); */
     border-radius: var(--round-border);
     margin: 3rem auto auto auto;
-
+    max-width: 100%;
 }
+
+/* @media (max-width: 800px) {
+    #media {
+        margin: 0;
+    }
+} */
 
 #hello {
     background-color: #fffffff8;
@@ -61,3 +67,38 @@ figcaption {
     background: #d2d3ce;
   }
 
+h3 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+ul {
+    margin: 0 auto 50px auto;
+    text-align: left;
+    max-width: 800px;
+    line-height: 1.7rem;
+    font-size: 1.5rem;
+    font-family: 'Slabo 27px', sans-serif;
+    /*background-color: #fffffff8;
+    border-radius: var(--round-border);*/
+}
+
+li {
+    margin: 1.5rem 0;
+}
+
+blockquote {
+    font-size: 2rem;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: left;
+    font-style: italic;
+}
+
+#cite {
+    text-align: right;
+}
+
+h5 {
+    font-size: 1.8rem;
+    text-align: center;
+}
